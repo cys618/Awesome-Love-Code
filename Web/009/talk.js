@@ -1,68 +1,24 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('我就知道小宝宝一定会愿意~(^_^)', function() {
+        modal('我就知道今天是妳生日~(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
             fireworks();
-
         });
     });
     $('#no').click(function(event) {
-        modal('明人不说暗话！', A);
+        modal('別想按不是！', A);
     });
 });
 
 function A() {
-    modal('我爱你！', B);
+    modal('生日快樂！', B);
 }
 
 function B() {
-    modal('我知道你在等我这一句话', C);
-}
-
-function C() {
-    modal('请宝宝不要拒绝我嘛~', D);
-}
-
-function D() {
-    modal('拒绝我，不存在的', E);
-}
-
-function E() {
-    modal('这辈子都不可能让你离开我的!!!', F);
-}
-
-function F() {
-    modal('跟我走吧宝宝~', G);
-}
-
-function G() {
-    modal('房产证上写你的名字', H);
-}
-
-function H() {
-    modal('我会做饭', I);
-}
- function I() {
-    modal('我会买很多东西给你', J)
-}
-function I() {
-    modal('会好好疼你', J)
-}
-function I() {
-    modal('会哄你睡觉', J)
-}
-function I() {
-    modal('会唱歌给你听', J)
-}
-function I() {
-    modal('爱你。么么哒！', J)
-}
-
-function J() {
-    modal('行，我们去民政局登记吧', function() {
-        fireworks();
+    modal('祝你有一个美好的一天！', function() {
+        // 这里可以添加更多的逻辑
     });
 }
 
