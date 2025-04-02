@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 
 <head>
 
-    <title>學測</title>
+    <title>17大美女</title>
     <meta name="language" content="zh-CN">
-    <meta name="title" content="學測!">
+    <meta name="title" content="17大美女">
     <meta name="github" content="https://github.com/sun0225SUN/Awesome-Love-Code">
     <meta name="describe" content="收集不易，您的star是我坚持的动力，同时也欢迎各位PR哦! ">
     <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/sun0225SUN/photos/img/20210715233345.png">
@@ -19,7 +19,8 @@
         .city {
             width: 100%;
             position: fixed;
-            bottom: 0px;
+            bottom:
+                0px;
             z-index: 100;
         }
 
@@ -31,21 +32,46 @@
             opacity: 0;
         }
     </style>
+    <title>
+        放烟花
+    </title>
     <link href="modal.css" rel="stylesheet" />
 </head>
 
-<body>
+<body onselectstart="return false">
+    <!--对话部分-->
+    <div class="share_img"><img src="a8b.png" alt=""></div>
+
+    <div class="page_one">
+        <div class="content">
+            <div class="text_wrapper">
+                <img src="a8.png" alt="">
+                <div class="text">
+                    今天是6月29號嗎？
+                </div>
+            </div>
+        </div>
+        <div class="btn-groups">
+            <div class="heart-btn">
+                <div id="yes" class="btn btn-a"><span>是</span></div>
+            </div>
+            <div id="no" class="btn btn-b"><span>不是</span></div>
+        </div>
+    </div>
     <!--烟花部分-->
+    <canvas id='cas' style="background-color:rgba(0,5,24,1)">
+        浏览器不支持canvas
+    </canvas>
     <div class="city">
         <img src="city.png" alt="" />
     </div>
     <img src="moon.png" alt="" id="moon" style="visibility: hidden;" />
     <div style="display:none">
         <div class="shape">
-           學測
+            大美女
         </div>
         <div class="shape">
-          加油
+            生日快樂
         </div>
     </div>
     <!--音乐部分-->
